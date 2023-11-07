@@ -1,4 +1,4 @@
-package db;
+package stepOne.db;
 
 public class DbException extends RuntimeException{
 
