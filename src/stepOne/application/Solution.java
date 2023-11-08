@@ -1,18 +1,17 @@
 package stepOne.application;
 
 
-
 import stepOne.db.DB;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
 
 public class Solution {
   public static void main(String[] args) {
-
+    SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
     Connection connection = null;
     Statement st = null;
     ResultSet rs = null;
